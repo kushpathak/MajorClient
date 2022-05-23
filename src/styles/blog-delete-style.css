@@ -1,0 +1,86 @@
+.blog-delete {
+  background: #a770ef;
+  background: -webkit-linear-gradient(to right, #fdb99b, #cf8bf3, #a770ef);
+  background: linear-gradient(to right, #fdb99b, #cf8bf3, #a770ef);
+  position: relative;
+  top: 50px;
+  height: 100vh;
+}
+.search-bar {
+  width: 400px;
+  height: 35px;
+  margin-top: 90px;
+  margin-left: 37%;
+  padding: 12px;
+  font-size: 19px;
+  border-radius: 5px;
+}
+.search-icon {
+  width: 35px;
+  position: absolute;
+  top: 90px;
+  margin-left: 20px;
+}
+.loader {
+  margin: auto;
+  margin-top: 100px;
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loading-text {
+  text-align: center;
+  line-height: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+#blog-content {
+  background-color: beige;
+  position: relative;
+  margin: auto;
+  width: 500px;
+  height: 280px;
+  margin-left: 35%;
+  margin-top: 100px;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  border-radius: 10px;
+  padding: 10px;
+}
+#blog-content h3 {
+  font-size: 21px;
+}
+#blog-content p {
+  font-size: 19px;
+}
+.delete-button {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  background-color: grey;
+  color: white;
+  transition: transform 0.5s;
+}
+.delete-button:hover {
+  transform: scale(1, 1.05);
+  cursor: pointer;
+}
+
+#del-h3 {
+  font-size: 20px;
+}

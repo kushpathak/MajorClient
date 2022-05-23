@@ -1,0 +1,144 @@
+.add-blog {
+  position: relative;
+  top: 50px;
+  background: #a770ef;
+  background: -webkit-linear-gradient(to right, #fdb99b, #cf8bf3, #a770ef);
+  background: linear-gradient(to right, #fdb99b, #cf8bf3, #a770ef);
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add-blog-main {
+  margin-top: 30px;
+  background: #fc4a1a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f7b733,
+    #fc4a1a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f7b733,
+    #fc4a1a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  height: 98vh;
+  width: 80%;
+  position: relative;
+}
+.title {
+  overflow: hidden;
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 140px;
+  height: 50px;
+  padding: 10px;
+  font-size: 17px;
+}
+.title-header {
+  text-align: center;
+  font-size: 25px;
+  padding-top: 18px;
+  font-weight: 400;
+}
+.snippet-header {
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+  font-weight: 400;
+  padding-top: 35px;
+}
+.snippet {
+  width: 80%;
+  margin-left: 140px;
+  height: 50%;
+  padding: 10px;
+  font-size: 21px;
+}
+.submit-blog {
+  position: absolute;
+  bottom: 0px;
+  left: 42%;
+  height: 40px;
+  width: 250px;
+  margin-bottom: 20px;
+  border: none;
+  font-size: 20px;
+  background-color: pink;
+  border: 1px solid pink;
+  border-radius: 10px;
+}
+.error {
+  padding-left: 43%;
+  color: red;
+  font-size: 17px;
+}
+@media (max-width: 1250px) {
+  .title {
+    margin-left: 95px;
+  }
+  .snippet {
+    margin-left: 95px;
+  }
+}
+@media (max-width: 950px) {
+  .title,
+  .snippet {
+    margin-left: 80px;
+  }
+  .submit-blog {
+    left: 30%;
+  }
+}
+@media (max-width: 700px) {
+  .title,
+  .snippet {
+    width: 80%;
+    margin-left: 50px;
+  }
+  .submit-blog {
+    left: 25%;
+  }
+}
+@media (max-width: 500px) {
+  .add-blog {
+    width: 105vw;
+    overflow: hidden;
+  }
+  .add-blog-main {
+    width: 90%;
+    height: 64%;
+  }
+  .snippet {
+    height: 35%;
+  }
+  .title,
+  .snippet {
+    margin-left: 40px;
+  }
+  .submit-blog {
+    left: 20%;
+  }
+  .snippet-header {
+    padding-top: 25px;
+  }
+  .title-header {
+    padding-top: 10px;
+  }
+  .title {
+    width: 77%;
+    margin-top: 0px;
+  }
+  .snippet {
+    width: 77%;
+  }
+  .error {
+    margin-left: 25px;
+  }
+}
+@media (max-width: 400px) {
+  .submit-blog {
+    margin-left: -20px;
+  }
+}
