@@ -17,7 +17,7 @@ import ImageSearch from "./components/ImageSearch";
 
 ReactDOM.render(
   <UserContextProvider>
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<App />}>
           <Route path="signup" element={<Signup />} />
